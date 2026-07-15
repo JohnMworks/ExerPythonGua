@@ -1,9 +1,9 @@
 import math
-co = float(input('digite o cateto oposto'))
-ca = float(input('digite o cateto adjacente'))
-math.
-print('A hipotenusa eh {}'.format())
-a
+co = float(input('digite o cateto oposto: '))
+ca = float(input('digite o cateto adjacente: '))
+hip = math.hypot(co,ca)
+print('A hipotenusa eh {}'.format(hip))
+
 '''from math import sqrt
 co = float(input('digite o cateto oposto: '))
 ca = float(input('digite o cateto adjacente'))
