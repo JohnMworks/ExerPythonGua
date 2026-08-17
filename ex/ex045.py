@@ -14,7 +14,7 @@ elif (op - pc) % 3 == 1:
 elif (op - pc) % 3 == 2:
     print('O computador jogou {} \n--DERROTA--'.format(lista[pc-1]))
 
-
+aa
 
 
 
