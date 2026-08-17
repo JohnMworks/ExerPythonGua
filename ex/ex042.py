@@ -12,7 +12,7 @@ else:
 
 if n1 == n2 == n3:
     print('Os angulos formam um triangulo Equilatero')
-elif n1 == n2 or n1 == n3 or n2 ==  n3:
-    print('Os angulos formam um triangulo Isosceles')
+elif n1 != n2 != n3 != n1:
+    print('Os angulos formam um triangulo Escaleno')
 else:
     print('Os angulos formam um triangulo Isosceles')
