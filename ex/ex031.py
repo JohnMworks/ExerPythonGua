@@ -7,7 +7,7 @@ else:
     preco = km/2.2
     print('O valor ficou R${:.2f}'.format(preco))
 
-    print()
+pr
 
 
 
