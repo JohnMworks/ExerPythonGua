@@ -3,7 +3,7 @@ import random
 from time import sleep
 
 op = int(input('-=' * 20 + '\n1 - Pedra \n2 - Papel \n3 - Tesoura\n' + '-=' * 20))
-wvrwvwr
+
 #pc = random.randint(1,3)
 pc = 1
 lista = ['pedra', 'papel', 'tesoura']
