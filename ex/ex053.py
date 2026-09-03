@@ -1,13 +1,13 @@
-palavra = input("Digite uma palavra: ")
+palavra = str(input('Digite uma palavra: '))
 
-# Remove espaços e transforma em letras minúsculas
-palavra_limpa = palavra.replace(" ", "").lower()
+lista = list(palavra)
 
-# Inverte a string usando slice
-palavra_invertida = palavra_limpa[::-1]
+listainv = lista[::-1]
 
-# Compara a palavra limpa com a invertida
-if palavra_limpa == palavra_invertida:
-    print("É um palíndromo!")
+
+print(f'O inverso de {lista} é {listainv}')
+
+if lista == listainv:
+    print('Temos um palindromo!')
 else:
-    print("Não é um palíndromo.")
+    print('Não temos um palindromo.')
