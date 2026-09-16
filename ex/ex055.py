@@ -2,7 +2,7 @@ maior = 0.
 menor = 0.
 
 for i in range(1,6):
-    pes = float(input('Digite seu peso: '))
+    pes = float(input(f'Digite o peso da {i}ª pessoa: '))
     if i == 1:
         maior = pes
         menor = pes
@@ -12,5 +12,5 @@ for i in range(1,6):
         if pes < menor:
             menor = pes
             
-print(menor)
-print(maior)
+print(f'O menor peso lido foi: {menor}')
+print(f'O maior peso lido foi: {maior}')
