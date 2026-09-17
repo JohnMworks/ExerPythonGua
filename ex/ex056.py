@@ -27,3 +27,5 @@ med_idade = sum(idades)/len(idades)
 print(f'A média de idade do grupo é de {med_idade} anos')
 print(f'O homem mais velho tem {hom_velho} anos e se chama {nom_homem_velho}')
 print(f'Ao todo são {mm20a} mulheres com menos de 20 anos')
+
+#sex in 'Mm' ; sex in 'Ff'
