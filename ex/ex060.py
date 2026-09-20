@@ -1,8 +1,8 @@
 num = int(input('Digite um numero p calcular o ftorial: '))
-res = 0 
-con = num
+res = 1
 
-while con != 1:
-    con -= 1
-    res = res + 
-    print(con)
+while num > 1:
+    res = res * num
+    num = num - 1
+
+print(res)
