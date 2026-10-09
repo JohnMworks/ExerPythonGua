@@ -1,10 +1,9 @@
 #fibonacci
 res = 0
-ut = 0
 pt = 0
-con = 10
+st = 0
 
-while con > 0:
-    con -= 1
-    
-    
+#res = ultimo termo + penultimo termo
+# res append na lista
+
+
